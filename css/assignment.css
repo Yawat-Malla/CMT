@@ -1,0 +1,80 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+h1 {
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+}
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+tr:nth-child(even) {
+    background-color: #f5f5f5;
+}
+.home_button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.addbttn {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+ 
+  .home_button {
+    background-color: #ddd;
+    border: none;
+    padding: 10px 20px;
+    margin: 20px 0;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .home_button a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .home_button:hover {
+    background-color: #bbb;
+  } 
+  
+.addbttn:hover {
+    background-color: teal;
+  }
+  
+button a {
+    color: black;
+    text-decoration: none;
+}
+button a:hover {
+    text-decoration: underline;
+}

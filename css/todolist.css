@@ -1,0 +1,66 @@
+/* Set the font and background color for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  /* Style the heading */
+  h1 {
+    color: #333;
+    text-align: center;
+  }
+  
+  .home_button {
+    background-color: #ddd;
+    border: none;
+    padding: 10px 20px;
+    margin: 20px 0;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .home_button a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .home_button:hover {
+    background-color: #bbb;
+  }
+  
+  /* Style the form */
+  form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 80%;
+  }
+  
+  button[type="submit"] {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: teal;
+  }
+  
+  
